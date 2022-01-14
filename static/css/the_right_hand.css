@@ -2,12 +2,16 @@ body {
     font-family: Montserrat;
 }
 
+.header {
+    position: fixed; 
+    background-color: white; 
+    width: 100%; 
+    top: 0;
+}
+
 #fixedLogo {
-    height: 85px; 
-    width: 130px;
-    border: 2px solid black;
-    border-radius: 50%;
-    position: fixed;
+    height: 65px; 
+    width: 450px;
     z-index: 1;
 }
 
@@ -29,7 +33,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-image: linear-gradient(to right, #009051 20%, #F5C049 20% 40%, #FF7F50 40% 60%, #5FB3F9 60% 80%, #ef2829 80%);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -45,4 +49,9 @@ body {
 .footer {
     background-color: black;
     color: white;
+    height: 216px;
 }
+
+/* .borderTitle {
+    border: 2px solid black;
+} */
